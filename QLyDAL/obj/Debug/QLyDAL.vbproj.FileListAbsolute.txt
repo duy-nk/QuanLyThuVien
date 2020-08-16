@@ -1,0 +1,14 @@
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDAL\bin\Debug\QLyDAL.dll
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDAL\bin\Debug\QLyDAL.pdb
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDAL\bin\Debug\QLyDAL.xml
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDAL\bin\Debug\QLyDTO.dll
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDAL\bin\Debug\QLyDTO.pdb
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDAL\bin\Debug\QLyDTO.xml
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDAL\obj\Debug\QLyDAL.vbprojAssemblyReference.cache
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDAL\obj\Debug\QLyDAL.Resources.resources
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDAL\obj\Debug\QLyDAL.vbproj.GenerateResource.cache
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDAL\obj\Debug\QLyDAL.vbproj.CoreCompileInputs.cache
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDAL\obj\Debug\QLyDAL.vbproj.CopyComplete
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDAL\obj\Debug\QLyDAL.dll
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDAL\obj\Debug\QLyDAL.xml
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDAL\obj\Debug\QLyDAL.pdb

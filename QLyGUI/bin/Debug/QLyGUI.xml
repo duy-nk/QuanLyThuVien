@@ -1,0 +1,481 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+QLyGUI
+</name>
+</assembly>
+<members>
+<member name="T:QLyGUI.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:QLyGUI.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:QLyGUI.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet.tblSACHDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet.tblSACHRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet.tblSACHRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSetTableAdapters.tblSACHTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(QLyGUI.TVDataBsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(QLyGUI.TVDataBsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(QLyGUI.TVDataBsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSetTableAdapters.TableAdapterManager.UpdateAll(QLyGUI.TVDataBsDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet1.tblDOCGIADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet1.tblDOCGIARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet1.tblDOCGIARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet1TableAdapters.tblDOCGIATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(QLyGUI.TVDataBsDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(QLyGUI.TVDataBsDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(QLyGUI.TVDataBsDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet1TableAdapters.TableAdapterManager.UpdateAll(QLyGUI.TVDataBsDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet2.tblSACHDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet2.tblSACHRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet2.tblSACHRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet2TableAdapters.tblSACHTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(QLyGUI.TVDataBsDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(QLyGUI.TVDataBsDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(QLyGUI.TVDataBsDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet2TableAdapters.TableAdapterManager.UpdateAll(QLyGUI.TVDataBsDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet3.tblDOCGIADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet3.tblDOCGIARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet3.tblDOCGIARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet3TableAdapters.tblDOCGIATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(QLyGUI.TVDataBsDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(QLyGUI.TVDataBsDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(QLyGUI.TVDataBsDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet3TableAdapters.TableAdapterManager.UpdateAll(QLyGUI.TVDataBsDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet4.tblLOAIDOCGIADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet4.tblLOAIDOCGIARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet4.tblLOAIDOCGIARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet4TableAdapters.tblLOAIDOCGIATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(QLyGUI.TVDataBsDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(QLyGUI.TVDataBsDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(QLyGUI.TVDataBsDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet4TableAdapters.TableAdapterManager.UpdateAll(QLyGUI.TVDataBsDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet5.tblCHITIETPHIEUMUONDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet5.tblCHITIETPHIEUMUONRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet5.tblCHITIETPHIEUMUONRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet5TableAdapters.tblCHITIETPHIEUMUONTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(QLyGUI.TVDataBsDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(QLyGUI.TVDataBsDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(QLyGUI.TVDataBsDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet5TableAdapters.TableAdapterManager.UpdateAll(QLyGUI.TVDataBsDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet6.tblTHELOAIDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet6.tblTHELOAIRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet6.tblTHELOAIRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet6TableAdapters.tblTHELOAITableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(QLyGUI.TVDataBsDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(QLyGUI.TVDataBsDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(QLyGUI.TVDataBsDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:QLyGUI.TVDataBsDataSet6TableAdapters.TableAdapterManager.UpdateAll(QLyGUI.TVDataBsDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:QLyGUI.TVDataBsDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

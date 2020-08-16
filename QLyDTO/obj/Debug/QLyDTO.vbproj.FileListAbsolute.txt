@@ -1,0 +1,10 @@
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDTO\bin\Debug\QLyDTO.dll
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDTO\bin\Debug\QLyDTO.pdb
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDTO\bin\Debug\QLyDTO.xml
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDTO\obj\Debug\QLyDTO.vbprojAssemblyReference.cache
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDTO\obj\Debug\QLyDTO.Resources.resources
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDTO\obj\Debug\QLyDTO.vbproj.GenerateResource.cache
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDTO\obj\Debug\QLyDTO.vbproj.CoreCompileInputs.cache
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDTO\obj\Debug\QLyDTO.dll
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDTO\obj\Debug\QLyDTO.xml
+D:\Codes\VB\QLTV_NEW\QuanLyThuVien1\QLyDTO\obj\Debug\QLyDTO.pdb

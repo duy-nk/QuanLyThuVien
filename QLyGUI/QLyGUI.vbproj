@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4AD0B0B6-340C-4165-B4F8-C90F8711DF24}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>QLyGUI.My.MyApplication</StartupObject>
+    <RootNamespace>QLyGUI</RootNamespace>
+    <AssemblyName>QLyGUI</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>QLyGUI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>QLyGUI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\..\Documents\Visual Studio 2017\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmDoiMatKhau.Designer.vb">
+      <DependentUpon>frmDoiMatKhau.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDoiMatKhau.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFind.Designer.vb">
+      <DependentUpon>frmFind.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFind.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFindBook.Designer.vb">
+      <DependentUpon>frmFindBook.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFindBook.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFindReader.Designer.vb">
+      <DependentUpon>frmFindReader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFindReader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHeThong.Designer.vb">
+      <DependentUpon>frmHeThong.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHeThong.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLapthe.Designer.vb">
+      <DependentUpon>frmLapthe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLapthe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuyDinhTheLoaiSach.Designer.vb">
+      <DependentUpon>frmQuyDinhTheLoaiSach.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuyDinhTheLoaiSach.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMuonTraSach.Designer.vb">
+      <DependentUpon>frmMuonTraSach.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMuonTraSach.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuyDinhDocGia.Designer.vb">
+      <DependentUpon>frmQuyDinhDocGia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuyDinhDocGia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuyDinhMuonSach.Designer.vb">
+      <DependentUpon>frmQuyDinhMuonSach.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuyDinhMuonSach.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaoTaiKhoan.Designer.vb">
+      <DependentUpon>frmTaoTaiKhoan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTaoTaiKhoan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frmTiepnhanSach.Designer.vb">
+      <DependentUpon>frmTiepnhanSach.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTiepnhanSach.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThayDoiQuyDinh.Designer.vb">
+      <DependentUpon>frmThayDoiQuyDinh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmThayDoiQuyDinh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TVDataBsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TVDataBsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TVDataBsDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TVDataBsDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TVDataBsDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TVDataBsDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TVDataBsDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TVDataBsDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TVDataBsDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TVDataBsDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TVDataBsDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TVDataBsDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TVDataBsDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TVDataBsDataSet6.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmDoiMatKhau.resx">
+      <DependentUpon>frmDoiMatKhau.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFind.resx">
+      <DependentUpon>frmFind.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFindBook.resx">
+      <DependentUpon>frmFindBook.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFindReader.resx">
+      <DependentUpon>frmFindReader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHeThong.resx">
+      <DependentUpon>frmHeThong.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLapthe.resx">
+      <DependentUpon>frmLapthe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuyDinhTheLoaiSach.resx">
+      <DependentUpon>frmQuyDinhTheLoaiSach.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMuonTraSach.resx">
+      <DependentUpon>frmMuonTraSach.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuyDinhDocGia.resx">
+      <DependentUpon>frmQuyDinhDocGia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuyDinhMuonSach.resx">
+      <DependentUpon>frmQuyDinhMuonSach.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaoTaiKhoan.resx">
+      <DependentUpon>frmTaoTaiKhoan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTiepnhanSach.resx">
+      <DependentUpon>frmTiepnhanSach.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThayDoiQuyDinh.resx">
+      <DependentUpon>frmThayDoiQuyDinh.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="TVDataBsDataSet.xsc">
+      <DependentUpon>TVDataBsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TVDataBsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TVDataBsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TVDataBsDataSet.xss">
+      <DependentUpon>TVDataBsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TVDataBsDataSet1.xsc">
+      <DependentUpon>TVDataBsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TVDataBsDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TVDataBsDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TVDataBsDataSet1.xss">
+      <DependentUpon>TVDataBsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TVDataBsDataSet2.xsc">
+      <DependentUpon>TVDataBsDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TVDataBsDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TVDataBsDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TVDataBsDataSet2.xss">
+      <DependentUpon>TVDataBsDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TVDataBsDataSet3.xsc">
+      <DependentUpon>TVDataBsDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TVDataBsDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TVDataBsDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TVDataBsDataSet3.xss">
+      <DependentUpon>TVDataBsDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TVDataBsDataSet4.xsc">
+      <DependentUpon>TVDataBsDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="TVDataBsDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TVDataBsDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TVDataBsDataSet4.xss">
+      <DependentUpon>TVDataBsDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="TVDataBsDataSet5.xsc">
+      <DependentUpon>TVDataBsDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="TVDataBsDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TVDataBsDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TVDataBsDataSet5.xss">
+      <DependentUpon>TVDataBsDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="TVDataBsDataSet6.xsc">
+      <DependentUpon>TVDataBsDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="TVDataBsDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TVDataBsDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TVDataBsDataSet6.xss">
+      <DependentUpon>TVDataBsDataSet6.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QLyBUS\QLyBUS.vbproj">
+      <Project>{87c8461c-fcf3-43c1-b7d3-7cd66a251b84}</Project>
+      <Name>QLyBUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QLyDAL\QLyDAL.vbproj">
+      <Project>{121d83b4-1d0f-43a7-a291-a17fecc7c8cf}</Project>
+      <Name>QLyDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QLyDTO\QLyDTO.vbproj">
+      <Project>{6db3b006-d0d7-408f-a771-313db88f051c}</Project>
+      <Name>QLyDTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
